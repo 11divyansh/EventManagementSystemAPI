@@ -1,5 +1,31 @@
 # MoveInSyncTask-2
 Event Management system
+Objective:
+A fully functional RESTful API for an Event Booking System where users can browse events, book tickets, and manage their bookings.
+Task Description
+You are required to build a backend API (no frontend) that supports the following features:
+1. User Registration & Authentication
+•	User signup with email & password
+•	Secure login (JWT or session-based)
+•	Role-based access (user, admin)
+2. Events Management
+•	Admin can create, update, and delete events
+•	Anyone (even unauthenticated users) can view events
+•	Each event must contain:
+o	Title
+o	Description
+o	Date & Time
+o	Location
+o	Total Seats
+o	Available Seats
+3. Booking System
+•	Authenticated users can:
+o	Book a ticket for an event
+o	View their bookings
+o	Cancel their bookings
+•	The system must:
+o	Prevent booking if no seats are available
+o	Decrease available seats after booking
 
 This project is a Spring Boot REST API for event management, including:
 - User registration(ADMIN/USER)
