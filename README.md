@@ -1,4 +1,4 @@
-# MoveInSyncTask-2
+
 Event Management system
 Objective:
 A fully functional RESTful API for an Event Booking System where users can browse events, book tickets, and manage their bookings.
